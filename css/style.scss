@@ -1086,7 +1086,10 @@ body{
 
 //FOOTER
 .footer {
-    margin-top: 50px;
+    @media (max-width:770px) {
+        margin-top: 50px;
+    }
+    
 }
 .footer__wrapper {
 }
@@ -1137,6 +1140,9 @@ body{
             line-height: 11px;
             letter-spacing: -0.006em;
             margin-bottom: 54px;
+            @media (max-width:1030px) {
+                margin-bottom: 30px;
+            }
         }
         .footer-info__text__block {
             font-size: 14px;

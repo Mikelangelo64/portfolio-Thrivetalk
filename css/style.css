@@ -1296,8 +1296,10 @@ body._lock {
   color: #62D0DF;
 }
 
-.footer {
-  margin-top: 50px;
+@media (max-width: 770px) {
+  .footer {
+    margin-top: 50px;
+  }
 }
 
 .footer-info {
@@ -1380,6 +1382,11 @@ body._lock {
   line-height: 11px;
   letter-spacing: -0.006em;
   margin-bottom: 54px;
+}
+@media (max-width: 1030px) {
+  .footer-info .footer-info__item .footer-info__title {
+    margin-bottom: 30px;
+  }
 }
 .footer-info .footer-info__item .footer-info__text__block {
   font-size: 14px;
