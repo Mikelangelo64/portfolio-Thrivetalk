@@ -19,21 +19,25 @@
                 </div>
                 <nav class="menu _content-H">
                     <ul class="menu-list _content-H">
+                        <span class="menu__underline"></span>
                         <li class="menu__item">
-                            <a href="#">Home</a>
+                            <a data-goto=".main" class="menu__link" href="#">Home</a>
                         </li>
                         <li class="menu__item">
-                            <a href="#">About</a>
+                            <a data-goto=".about-us" class="menu__link" href="#">About</a>
                         </li>
                         <li class="menu__item">
-                            <a href="#">Services</a>
+                            <a data-goto=".categories" class="menu__link" href="#">Services</a>
                         </li>
                         <li class="menu__item">
-                            <a href="#">Blog</a>
+                            <a data-goto=".also-know" class="menu__link" href="#">Blog</a>
                         </li>
                     </ul>
-                    <button class="header__btn">contact us</button>
+                    <button data-goto=".contact-us" class="header__btn menu__link">contact us</button>
                 </nav>
+                <div class="burger">
+                    <span></span>
+                </div>
             </div>
         </div>
     </header>
@@ -171,34 +175,87 @@
     <section class="categories">
         <div class="categories__list _content-H">
             <div class="categories__item _list__item">
-                <h4 class="item__title _title">
-                    Physical Health
-                </h4>
+                <div class="item__front">
+                    <h4 class="item__title _title">
+                        Physical Health
+                    </h4>
+                </div>
+                <div class="item__back">
+                    <h4 class="item__title _title">
+                        Physical Health
+                    </h4>
+                    <img src="assets/img/section-helth-types.png" alt="item-back">
+                </div>
+                
             </div>
             <div class="categories__item _list__item">
-                <h4 class="item__title _title">
-                    Mental Health
-                </h4>
+                <div class="item__front">
+                    <h4 class="item__title _title">
+                        Mental Health
+                    </h4>
+                </div>
+                <div class="item__back">
+                    <h4 class="item__title _title">
+                        Mental Health
+                    </h4>
+                    <img src="assets/img/section-helth-types.png" alt="item-back">
+                </div>
             </div>
             <div class="categories__item _list__item">
-                <h4 class="item__title _title">
-                    Nutrition
-                </h4>
+                <div class="item__front">
+                    <h4 class="item__title _title">
+                        Nutrition
+                    </h4>
+                </div>
+                <div class="item__back">
+                    <h4 class="item__title _title">
+                        Nutrition
+                    </h4>
+                    <img src="assets/img/section-helth-types.png" alt="item-back">
+                </div>
+                
             </div>
             <div class="categories__item _list__item">
-                <h4 class="item__title _title">
-                    Gymnastics
-                </h4>
+                <div class="item__front">
+                    <h4 class="item__title _title">
+                        Gymnastics
+                    </h4>
+                </div>
+                <div class="item__back">
+                    <h4 class="item__title _title">
+                        Gymnastics
+                    </h4>
+                    <img src="assets/img/section-helth-types.png" alt="item-back">
+                </div>
+                
             </div>
             <div class="categories__item _list__item">
-                <h4 class="item__title _title">
-                    Crossfit
-                </h4>
+                <div class="item__front">
+                    <h4 class="item__title _title">
+                        Crossfit
+                    </h4>
+                </div>
+                <div class="item__back">
+                    <h4 class="item__title _title">
+                        Crossfit
+                    </h4>
+                    <img src="assets/img/section-helth-types.png" alt="item-back">
+                </div>
+                
             </div>
             <div class="categories__item _list__item">
-                <h4 class="item__title _title">
-                    Aerobics
-                </h4>
+                <div class="item__front">
+                    <h4 class="item__title _title">
+                        Aerobics
+                    </h4>
+                </div>
+                <div class="item__back">
+                    <h4 class="item__title _title">
+                        Aerobics
+                    </h4>
+                    <img src="assets/img/section-helth-types.png" alt="item-back">
+                </div>
+                
             </div>
             
         </div>
@@ -382,8 +439,9 @@
                                         Buffalo, United States<span></span>
                                         +555 283 784 333
                                     </p>
+                                    <a class="footer-info__email__ref" href="mailto:office@enfold-health.com">office@enfold-health.com</a>
                                 </div>
-                                <a class="footer-info__email__ref" href="mailto:office@enfold-health.com">office@enfold-health.com</a>
+                                
                                 
                             </li>
                             <li class="footer-info__item _content-V">
