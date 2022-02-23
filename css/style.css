@@ -292,6 +292,27 @@ body._lock {
     background: #22356F;
   }
 }
+@media (max-width: 770px) and (max-width: 430px) {
+  .menu .header__btn {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 55%;
+            flex: 0 0 55%;
+  }
+}
+@media (max-width: 770px) and (max-width: 380px) {
+  .menu .header__btn {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 62%;
+            flex: 0 0 62%;
+  }
+}
+@media (max-width: 770px) and (max-width: 380px) {
+  .menu .header__btn {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 70%;
+            flex: 0 0 70%;
+  }
+}
 
 .burger {
   display: none;

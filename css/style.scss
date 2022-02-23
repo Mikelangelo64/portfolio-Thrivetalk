@@ -266,6 +266,15 @@ body{
             flex: 0 1 30%;
             padding: 30px;
             background: #22356F;
+            @media (max-width:430px) {
+                flex: 0 0 55%;
+            }
+            @media (max-width:380px) {
+                flex: 0 0 62%;
+            }
+            @media (max-width:380px) {
+                flex: 0 0 70%;
+            }
         }
     }
     

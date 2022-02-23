@@ -75,7 +75,7 @@ $(document).ready(function () {
     //menu-active
     $('.burger').click(function(){
         $('.burger, .menu, .logo-wrapper').toggleClass('_menu__active')
-        $('body').toggleClass('._lock')
+        $('body').toggleClass('_lock')
     })
 
     //ScrollTo
