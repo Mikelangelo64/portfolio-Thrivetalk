@@ -10,8 +10,8 @@ $(document).ready(function () {
         variableWidth: false,
         arrows: false,
         dots: false,
-        /* autoplay: true,
-        autoplaySpeed: 3000, */
+        autoplay: true,
+        autoplaySpeed: 3000,
         responsive:[
             {
                 breakpoint: 770,
