@@ -705,13 +705,19 @@ body{
             }
         }
         @media (max-width:770px) {
-            flex: 0 1 33.333%;
+            flex: 0 1 50%;
             &.item__green, &.item__rose, &.item__white__blue, &.item__blue{
                 padding: 72px 31px 165px 31px;
             }
         }
-        @media (max-width:770px) {
-            flex: 0 1 50%;
+        @media (max-width:430px) {
+            &.item__green, &.item__rose, &.item__white__blue, &.item__blue{
+                .item__title{
+                    font-size: 28px;
+                    max-width: 243px;
+                }
+                
+            }
         }
     }
 }
